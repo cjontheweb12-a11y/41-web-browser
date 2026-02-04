@@ -8,14 +8,17 @@ var currentSearchEngine = {
   searchURL: '%s'
 }
 
-var defaultSearchEngine = 'DuckDuckGo'
+var defaultSearchEngine = 'defaultEngine: 'Mojeek',
+'
 
 var searchEngines = {
-  DuckDuckGo: {
-    name: 'DuckDuckGo',
-    searchURL: 'https://duckduckgo.com/?q=%s&t=min',
-    suggestionsURL: 'https://ac.duckduckgo.com/ac/?q=%s&type=list&t=min',
+Mojeek: {
+    name: 'Mojeek',
+    searchURL: 'https://www.mojeek.com/search?q=%s',
+    suggestionsURL: 'https://www.mojeek.com/search?q=%s&autocomplete=true',
     queryParam: 'q'
+},
+
   },
   Google: {
     name: 'Google',
